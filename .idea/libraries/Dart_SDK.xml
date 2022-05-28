@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="Dart SDK">
+    <CLASSES>
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/async" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/cli" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/collection" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/convert" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/core" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/developer" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/ffi" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/html" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/indexed_db" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/io" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/isolate" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/js" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/js_util" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/math" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/mirrors" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/svg" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/typed_data" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/web_audio" />
+      <root url="file://$USER_HOME$/development/flutter/bin/cache/dart-sdk/lib/web_gl" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/crypto.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/digest_sink.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/digest.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/hash_sink.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/hash.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/hmac.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/md5.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/sha1.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/sha256.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/sha512_fastsinks.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/sha512_slowsinks.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/sha512.dart" />
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib/src/utils.dart" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib" />
+    </excluded>
+  </library>
+</component>
