@@ -25,12 +25,12 @@ Future<void> main() async {
   // testStreamFromFuture();
   // testStreamFromPeriodic();
 
-  // testStreamProducerConsumer();
+  testStreamProducerConsumer();
 
   // testSubString();
 
   // testTimer();
-  testTimerFutureStreamMicrotask();
+  // testTimerFutureStreamMicrotask();
 }
 
 // Future和Timer都在Event队列执行
@@ -76,7 +76,6 @@ testSubString() {
 }
 
 testStreamProducerConsumer() {
-  // List<String> eventData = []; // 模拟event数据
   List<String> spData = []; // 模拟保存到SharedPreference
 
   StreamController<String> streamController = StreamController();
@@ -84,23 +83,22 @@ testStreamProducerConsumer() {
   // 模拟每1秒生产一份数据
   Timer.periodic(Duration(seconds: 1), (timer) async {
     String event = generateRandomString();
-    // 生产event数据，加到stream流里
-    streamController.sink.add(event);
     // 模拟保存到SharedPreference
     await Future.delayed(Duration(milliseconds: 100));
     spData.add(event);
-
-    print('producer spData: ' + spData.toString());
+    // 生产event数据，加到stream流里
+    streamController.sink.add(event);
+    print('>>>Producer每秒生成一份数据添加到队列: ' + spData.toString());
   });
 
-  // 模拟消费events数据
+  // 模拟消费events数据，2秒消费一次数据
   streamController.stream.listen((event) async {
     // 模拟网络请求耗时2秒，然后从spData里删除次调数据
     // Future.delayed(Duration(seconds: 2));
-    print('listen((event)');
+    print('<<<Consumer开始消费数据：$event');
     await Future.delayed(Duration(seconds: 2));
     spData.remove(event);
-    print('after consume spData: ' + spData.toString());
+    print('<<<Consumer消费后的队列数据: ${spData.toString()}');
     print('==========================\n');
   });
 
